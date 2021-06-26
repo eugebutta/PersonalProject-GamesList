@@ -1,0 +1,5 @@
+export const GET_GAMES = "SET_GAMES"
+export const GET_GENRES = "GET_GENRES"
+export const GET_GAMES_DETAIL = "SET_GAMES_DETAIL"
+export const ADD_GAME = "ADD_GAME"
+export const GET_PLATFORMS = "GET_PLATFORMS"

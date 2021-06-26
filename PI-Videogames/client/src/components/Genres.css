@@ -1,0 +1,42 @@
+.line {
+    border-bottom: 2px solid #cfc3c8;
+    font-size: 1.5em;
+    transition: all 0.25s linear;
+    position: relative;
+    color: rgb(248, 246, 248)
+    ;
+  }
+  
+  .line:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #551A8B;
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* this is to match where the border is */
+    transform-origin: left; 
+    transform: scale(0);
+    transition: 0.25s linear;
+  /*   will-change: transform; */
+  }
+  
+  .line:hover:before {
+    transform: scale(1);
+  }
+
+  .genresConteiner{
+      margin: 2px;
+  }
+
+  .h1{
+    font-family: Georgia, sans-serif;
+    font-size: 4em;
+    letter-spacing: -2px;
+    color: #551A8B;
+
+  }
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
